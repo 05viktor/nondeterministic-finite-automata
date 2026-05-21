@@ -1,0 +1,24 @@
+[States]
+q0
+q1
+q2
+End
+
+[Sigma]
+a
+b
+End
+
+[Rules]
+q0, a, q0
+q0, a, q1
+q1, b, q2
+End
+
+[Start]
+q0
+End
+
+[Accept]
+q2
+End
